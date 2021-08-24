@@ -40,3 +40,5 @@ let ninja: {
 }
 ninja = { name: 24, age: "yoshi" }
 console.log(ninja)
+
+//functions
