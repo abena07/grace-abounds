@@ -1,9 +1,20 @@
-const character = 'mario';
+const circumference = (diameter: number) => {
+    return diameter * Math.PI;
+}
 
-console.log(character);
+console.log(circumference(2.9));
 
-const inputs = document.querySelectorAll('input');
+//arrays
+let people = ['luigi', 'mario', 'yoshi']
+people.push('toad')
+// you can only add a different type when you declare an array with a different types
+let mixed = ['cat', 7, 19, 'dog', 9, 'mouse']
+mixed.push('goat')
+mixed[1] = "bark"
 
-inputs.forEach(input => {
-    console.log(input);
-});
+//objects
+let babe = {
+    name: 'mario',
+    belt: 'black',
+    age: 40
+}
