@@ -33,3 +33,16 @@ var ninja;
 ninja = { name: 24, age: "yoshi" };
 console.log(ninja);
 //functions
+var greet;
+greet = function () {
+    console.log("hello, again");
+};
+var add = function (a, b, c) {
+    console.log(a + b);
+    console.log(c);
+};
+add(5, 19);
+///you can return a data type manually 
+var minus = function (a, b) {
+    return (a + b);
+};
