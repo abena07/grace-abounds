@@ -62,3 +62,15 @@ add(5, 19)
 const minus = (a: number, b: number): number => {
     return (a + b)
 }
+
+///shhez this makes sense 
+type SrtringOrNum = string | number;
+type objWithName = { name: string, uid: SrtringOrNum }
+
+//const logDetails =(uid:SrtringOrNum, item:string)=>{
+   // console.log(`$(item) has a uid of $(uid);`)
+//}
+
+//const greet = (user: objWithName) ={
+   // console.log(`$(user.name) says hello`)
+//}

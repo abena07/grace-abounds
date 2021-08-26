@@ -46,3 +46,9 @@ add(5, 19);
 var minus = function (a, b) {
     return (a + b);
 };
+//const logDetails =(uid:SrtringOrNum, item:string)=>{
+// console.log(`$(item) has a uid of $(uid);`)
+//}
+//const greet = (user: objWithName) ={
+// console.log(`$(user.name) says hello`)
+//}
